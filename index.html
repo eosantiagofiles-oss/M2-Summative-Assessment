@@ -1,0 +1,96 @@
+<html>
+    <head>
+       
+        <nav class="navbar">
+         <div class="logo">
+            <img src="https://ik.imagekit.io/dicosantiago/Portfolio/logo%20final.png?updatedAt=1762084990480" alt="logo">
+         </div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About</a></li>
+
+          </ul>
+        </nav>
+
+        <h1>
+           Galilee Galleria
+        </h1>
+   
+        <title>Galilee Galleria: A Design Exhibition</title>
+        <link rel="stylesheet" href="styles.css">
+        
+
+    </head>
+
+
+<body>
+
+    <main>
+        <div class="welcome">
+            <b>A Design Exhibition</b><br>
+            Galilee Galleria — a sanctuary of screens and souls, where art is not observed but experienced, not framed but felt.
+        </div>
+
+        <div class="intro">
+            <p>
+                Step into a realm where creativity knows no bounds. Galilee Galleria is more than just a collection of works; it's a celebration of imagination, innovation, and the transformative power of visual storytelling. Here, every piece is a journey, inviting you to explore new perspectives and emotions through the lens of talented creators.
+            </p>
+
+    </main>
+
+    <video src="https://ik.imagekit.io/dicosantiago/Portfolio/video-output-B0AFA1C9-B558-49AF-9CEF-D9C091C26AEF.mov/ik-video.mp4?updatedAt=1762081423475
+" autoplay controls loop>
+        <source="video-output-B0AFA1C9-B558-49AF-9CEF-D9C091C26AEF" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <p class="iso">
+        A promotional video for a starting immersive photobooth business called ISO. It showcases stunning visuals and dynamic backdrops, highlighting the unique experience ISO offers for capturing memorable moments.
+    </p>
+    
+    <p class="gallery">Gallery</p>
+
+    <div class="works-content works-section" style="max-width:500px">
+        <img class="mySlides" src="https://ik.imagekit.io/dicosantiago/Portfolio/Dash%20(1).png?updatedAt=1757423010371" style="width:100%">
+        <img class="mySlides" src="https://ik.imagekit.io/dicosantiago/Portfolio/Uno.Med.png?updatedAt=1757423011020" style="width:100%">
+        <img class="mySlides" src="https://ik.imagekit.io/dicosantiago/Portfolio/Dash.png?updatedAt=1757423010958" style="width:100%">
+        <img class="mySlides" src="https://ik.imagekit.io/dicosantiago/Portfolio/IMG_3164.PNG?updatedAt=1762001116064" style="width:100%">
+        <img class="mySlides" src="https://ik.imagekit.io/dicosantiago/Portfolio/IMG_3163.PNG?updatedAt=1762001116237" style="width:100%">
+        <img class="mySlides" src="https://ik.imagekit.io/dicosantiago/Portfolio/Social%20Ad%20Poster%203.png?updatedAt=1762084995580" style="width:100%">
+    </div>
+
+    
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+    </script>
+
+
+    <video src="https://ik.imagekit.io/dicosantiago/Portfolio/POP%20BATHALA%20MUSIC%20VIDEO%20compressed%202.mp4?updatedAt=1762087122722" autoplay controls loop>
+        <source="video/POP BATHALA MUSIC VIDEO.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <p class="mv">
+        A music video showcased during the CAS Week 2024 at Mapúa Malayan Colleges Mindanao. It features dynamic visuals and storytelling that complement the song "P.O.P." also known to be <i>people of passion</i>.
+    </p>
+
+    <footer>
+        <p>© 2025 Galilee Galleria. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
