@@ -3,7 +3,7 @@
         src: url("https://ik.imagekit.io/dicosantiago/Portfolio/Desirable%20Brush%20Texture.ttf?updatedAt=1762095375652") format("truetype");
 }
 
-    html {
+html {
   scroll-behavior:smooth;
 }
 body{
