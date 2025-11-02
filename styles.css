@@ -1,4 +1,9 @@
-html {
+@font-face {
+        font-family: "MyCustomFont";
+        src: url("https://ik.imagekit.io/dicosantiago/Portfolio/Desirable%20Brush%20Texture.ttf?updatedAt=1762095375652") format("truetype");
+}
+
+    html {
   scroll-behavior:smooth;
 }
 body{
@@ -11,7 +16,7 @@ h1 {
     color: #ffff3f;
     margin-top: 100px;
     margin-bottom: 200px;
-    font-family: desirable brust texture, sans-serif;
+    font-family: MyCustomFont, sans-serif;
     font-size: 80px;
     text-shadow:  
     2px 2px 0 #000;
