@@ -107,7 +107,7 @@ main {
 }
 .gallery {
     position: relative;
-    font-family: desirable brust texture, sans-serif;
+    font-family: MyCustomFont, sans-serif;
     text-align: left;
     margin-top: 80px;
     margin-left: 60px;
